@@ -1,0 +1,85 @@
+@mixin mv( $media : 480px ){
+    @media  screen and (max-with: $media ) {
+        @content;
+    }    
+}
+
+$color1: #ee7217;
+$color2: #2084c7;
+$color3: #9ec99e;
+
+
+.index-main{
+    background-color: #190c27;
+    padding-top: 150px;
+}
+
+
+
+.quienes-body{
+    background-color: #9ec99e;
+}
+
+.quienes-somos-titulo{
+    padding-top: 100px;
+}
+
+.titulo{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2vh;
+}
+
+p{
+    color: $color3;
+    text-align: center;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Nuestros-clientes{
+@extend .titulo;
+}
+
+.container-carrusel{
+    max-width: 800px;
+    display: flex;
+    justify-items: center;
+    
+}
+
+
+.Mapa-de-sitio{
+    @extend .titulo;
+    }
+
+body{
+    background-color: #190c27;
+}
+
+nav{
+    background-color: black;
+}
+
+.footer-redes{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:80px;   /* Height of the footer */
+    background:#6cf;
+    
+}
+
+.footer-redes2{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:80px;   /* Height of the footer */
+    padding-
+}

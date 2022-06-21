@@ -1,0 +1,48 @@
+.index-main {
+  background-color: #190c27;
+}
+
+.quienes-body {
+  background-color: #9ec99e;
+}
+
+.titulo, .Mapa-de-sitio, .Nuestros-clientes {
+  color: aliceblue;
+  text-align: center;
+}
+
+p {
+  color: #9ec99e;
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container-carrusel {
+  max-width: 800px;
+  display: flexbox;
+  justify-items: center;
+}
+
+body {
+  background-color: #190c27;
+}
+
+nav {
+  background-color: black;
+}
+
+.footer-redes {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px; /* Height of the footer */
+  background: #6cf;
+}
+
+/*# sourceMappingURL=estilos.css.map */
